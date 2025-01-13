@@ -1,4 +1,4 @@
-# Project README: Loan Default Prediction and Price Prediction
+# Loan Default Prediction and Price Prediction Project
 
 This project comprises two interconnected objectives, each represented by a separate Jupyter Notebook. Both objectives aim to apply machine learning methodologies to solve practical problems in predictive analytics. Below is a detailed overview of the project's objectives, methodologies, and other essential information.
 
