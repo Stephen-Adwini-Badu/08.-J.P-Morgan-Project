@@ -4,6 +4,12 @@ This project comprises two interconnected objectives, each represented by a sepa
 
 ---
 
+### Project Structure
+1. **Loan Default Prediction Notebook:** Contains steps for predicting loan defaults.
+2. **Price Predictor Notebook:** Contains steps for predicting prices.
+
+---
+
 ## Objective 1: Loan Default Prediction
 
 ### Overview
@@ -62,16 +68,3 @@ This notebook aims to predict the prices of items or services based on various f
 
 8. **Price Predictor:**
    - The finalized model is used for price prediction on new data.
-
----
-
-## Common Elements
-
-### Tools and Technologies
-- Python 3.x
-- Libraries: Pandas, NumPy, Matplotlib, Scikit-learn, and others
-- Jupyter Notebook
-
-### Project Structure
-1. **Loan Default Prediction Notebook:** Contains steps for predicting loan defaults.
-2. **Price Predictor Notebook:** Contains steps for predicting prices.
