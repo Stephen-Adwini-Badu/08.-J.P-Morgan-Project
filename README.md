@@ -23,7 +23,9 @@ This notebook focuses on predicting the likelihood of loan defaults using histor
    - Loan-related datasets are loaded and inspected for structure, completeness, and initial insights.
 
 3. **Data Visualization:**
-   - Visual techniques (e.g., histograms, correlation heatmaps) are used to understand trends and relationships in the data.
+   - Visual techniques (e.g., scatterplots and barplots) are used to understand trends and relationships in the data.
+  
+     ![Image](https://github.com/user-attachments/assets/2ea80257-93ba-4dbc-81e2-f7fe2bfdf705)
 
 4. **Model Preparation:**
    - Data preprocessing steps include handling missing values, feature selection, and encoding categorical variables.
@@ -32,7 +34,10 @@ This notebook focuses on predicting the likelihood of loan defaults using histor
    - Machine learning models (e.g., logistic regression, decision trees) are initialized and prepared for training.
 
 6. **Training and Evaluation:**
-   - Models are trained, and performance metrics such as accuracy, precision, and recall are computed.
+   - Models are trained, and performance metrics such as accuracy, precision, and recall are computed
+   -  A confusion matrix is used to visualize the model's performance.
+
+     ![Image](https://github.com/user-attachments/assets/430c136f-5963-4c78-8853-1b02accf3bb8)
 
 7. **Loan Default Predictor:**
    - The final model is fine-tuned and deployed for predicting loan defaults.
@@ -55,13 +60,18 @@ This notebook aims to predict the prices of items or services based on various f
    - New features are created, and existing features are transformed to enhance predictive power.
 
 4. **Data Visualization:**
-   - Charts and plots are created to understand feature distributions and relationships.
+   - A lineplot was created to better understand data.
+  
+     ![Image](https://github.com/user-attachments/assets/216051a0-fa28-43c8-b152-6136abc23793)
 
 5. **Model Preparation:**
    - Data is preprocessed, including normalization, handling outliers, and splitting into training/testing sets.
 
-6. **Model Initialization:**
-   - Machine learning models such as linear regression and gradient boosting are initialized.
+6. **Training and Evaluation:**
+   - Machine learning models such as linear regression and random forest regressors are trained.
+   - Regression plots are used to visualize their performance
+  
+     ![Image](https://github.com/user-attachments/assets/da7eef4f-ef60-4238-9046-ffad1ea9c150)
 
 7. **Price Prediction Logic:**
    - Models are trained to predict prices, and results are evaluated using metrics like RMSE and R-squared.
