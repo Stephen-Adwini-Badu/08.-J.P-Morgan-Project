@@ -31,10 +31,27 @@ This notebook focuses on predicting the likelihood of loan defaults using histor
    - Data preprocessing steps include handling missing values, feature selection, and encoding categorical variables.
 
 5. **Model Initialization:**
-   - Machine learning models (e.g., logistic regression, decision trees) are initialized and prepared for training.
+   - Machine learning model (Random Forest Classifier) is initialized and prepared for training.
 
 6. **Training and Evaluation:**
    - Models are trained, and performance metrics such as accuracy, precision, and recall are computed
+<table align="center">
+<tr>
+  <th>MODEL</th>
+  <th>ACCURACY</th>
+  <th>PRECISION</th>
+  <th>RECALL</th>
+  <th>F1 SCORE</th>
+</tr>
+<tr>
+  <td>Random Forest CLassifier</td>
+  <td align="center">99.0%</td>
+  <td align="center">96.0%</td>
+  <td align="center">98.0%</td>
+  <td align="center">97.0%</td>
+</tr>
+</table>
+
    -  A confusion matrix is used to visualize the model's performance.
 
      ![Image](https://github.com/user-attachments/assets/430c136f-5963-4c78-8853-1b02accf3bb8)
@@ -68,13 +85,37 @@ This notebook aims to predict the prices of items or services based on various f
    - Data is preprocessed, including normalization, handling outliers, and splitting into training/testing sets.
 
 6. **Training and Evaluation:**
-   - Machine learning models such as linear regression and random forest regressors are trained.
+   - Machine learning models such as linear regression and random forest regressor are trained.
+
+
    - Regression plots are used to visualize their performance
   
      ![Image](https://github.com/user-attachments/assets/da7eef4f-ef60-4238-9046-ffad1ea9c150)
 
 7. **Price Prediction Logic:**
-   - Models are trained to predict prices, and results are evaluated using metrics like RMSE and R-squared.
+   - Models are trained to predict prices, and results are evaluated using metrics like MAE MAPE and R-squared.
+
+<table align="center">
+<tr>
+  <th>MODEL</th>
+  <th>MAE</th>
+  <th>MAPE</th>
+  <th>R²</th>
+</tr>
+<tr>
+  <td>Random Forest Regressor</td>
+  <td align="center">0.2384</td>
+  <td align="center">0.0208</td>
+  <td align="center">0.8798</td>
+</tr>
+<tr>
+  <td>Linear Regression</td>
+  <td align="center">0.3123</td>
+  <td align="center">0.0273</td>
+  <td align="center">0.8798</td>
+</tr>
+</table>
+
 
 8. **Price Predictor:**
    - The finalized model is used for price prediction on new data.
