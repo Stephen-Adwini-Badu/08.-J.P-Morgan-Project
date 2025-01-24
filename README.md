@@ -36,20 +36,20 @@ This notebook focuses on predicting the likelihood of loan defaults using histor
 6. **Training and Evaluation:**
    - Models are trained, and performance metrics such as accuracy, precision, and recall are computed
 <table align="center">
-<tr>
-  <th>MODEL</th>
-  <th>ACCURACY</th>
-  <th>PRECISION</th>
-  <th>RECALL</th>
-  <th>F1 SCORE</th>
-</tr>
-<tr>
-  <td>Random Forest CLassifier</td>
-  <td align="center">99.0%</td>
-  <td align="center">96.0%</td>
-  <td align="center">98.0%</td>
-  <td align="center">97.0%</td>
-</tr>
+  <tr>
+    <th>MODEL</th>
+    <th>ACCURACY</th>
+    <th>PRECISION</th>
+    <th>RECALL</th>
+    <th>F1 SCORE</th>
+  </tr>
+  <tr>
+    <td>Random Forest CLassifier</td>
+    <td align="center">99.0%</td>
+    <td align="center">96.0%</td>
+    <td align="center">98.0%</td>
+    <td align="center">97.0%</td>
+  </tr>
 </table>
 
    -  A confusion matrix is used to visualize the model's performance.
@@ -96,24 +96,24 @@ This notebook aims to predict the prices of items or services based on various f
    - Models are trained to predict prices, and results are evaluated using metrics like MAE MAPE and R-squared.
 
 <table align="center">
-<tr>
-  <th>MODEL</th>
-  <th>MAE</th>
-  <th>MAPE</th>
-  <th>R²</th>
-</tr>
-<tr>
-  <td>Random Forest Regressor</td>
-  <td align="center">0.2384</td>
-  <td align="center">0.0208</td>
-  <td align="center">0.8798</td>
-</tr>
-<tr>
-  <td>Linear Regression</td>
-  <td align="center">0.3123</td>
-  <td align="center">0.0273</td>
-  <td align="center">0.8798</td>
-</tr>
+ <tr>
+    <th>MODEL</th>
+    <th>MAE</th>
+    <th>MAPE</th>
+    <th>R²</th>
+ </tr>
+ <tr>
+    <td>Random Forest Regressor</td>
+    <td align="center">0.2384</td>
+    <td align="center">0.0208</td>
+    <td align="center">0.8798</td>
+ </tr>
+ <tr>
+    <td>Linear Regression</td>
+    <td align="center">0.3123</td>
+    <td align="center">0.0273</td>
+    <td align="center">0.8798</td>
+ </tr>
 </table>
 
 
