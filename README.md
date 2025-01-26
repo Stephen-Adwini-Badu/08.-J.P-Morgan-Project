@@ -34,7 +34,7 @@ This notebook focuses on predicting the likelihood of loan defaults using histor
    - Machine learning model (Random Forest Classifier) is initialized and prepared for training.
 
 6. **Training and Evaluation:**
-   - Models are trained, and performance metrics such as accuracy, precision, and recall are computed
+   - Models are trained, and performance metrics such as accuracy, precision, recall, f1 score and roc-auc are computed
 <table align="center">
   <tr>
     <th>MODEL</th>
@@ -42,6 +42,7 @@ This notebook focuses on predicting the likelihood of loan defaults using histor
     <th>PRECISION</th>
     <th>RECALL</th>
     <th>F1 SCORE</th>
+    <th>ROC-AUC</th>
   </tr>
   <tr>
     <td>Random Forest CLassifier</td>
@@ -49,12 +50,14 @@ This notebook focuses on predicting the likelihood of loan defaults using histor
     <td align="center">96.0%</td>
     <td align="center">98.0%</td>
     <td align="center">97.0%</td>
+    <td align="center">99.0%</td>
   </tr>
 </table>
 
-   -  A confusion matrix is used to visualize the model's performance.
+   -  A confusion matrix, ROC-AUC and Calibration Curves were used to visualize the model's performance.
 
-     ![Image](https://github.com/user-attachments/assets/430c136f-5963-4c78-8853-1b02accf3bb8)
+![8 1](https://github.com/user-attachments/assets/09c06986-6992-4558-aee6-58905a93bfc1)
+
 
 7. **Loan Default Predictor:**
    - The final model is fine-tuned and deployed for predicting loan defaults.
